@@ -1,9 +1,12 @@
+![JWT Image](Images/SolarFlareStorm.png)
+
+This project was part of the NASA Space Apps Challenge 2024. Authors: FedericaGraziano, Kunal Sharma, and Laura Giulietti.
 <h1 align="center">
   NASA SPACE APP CHALLENGE 2024
 </h1>
 
 <div id="badges" align="center">
-    <img img src="Logo/logo.jpeg" width="200" height="200"/>
+    <img img src="Images/logo.jpeg" width="200" height="200"/>
 </div>
 
 <div id="badges" align="center">
@@ -12,7 +15,7 @@
   </a>
 </div>
 
-# Symphony of the Stars: Harmonizing the James Webb Space Telescope in Music and Images 
+# Symphony of the Stars: Harmonizing the James Webb Space Telescope in Music and Images using MusicGen and Langchain
 
 The James Webb Space Telescope (JWST), with its unprecedented capabilities, is designed to explore some of the most profound topics in astronomy—from the birth of stars and galaxies to the search for signs of life beyond our solar system. Its findings are likely to reshape our understanding of the universe, sparking curiosity and wonder. Your challenge is to capture the spirit of this remarkable mission by creating a collage that merges stunning JWST visuals with a compelling musical backdrop, encapsulating the sense of discovery and cosmic awe that the telescope inspires in a way that appeals to people of all ages.
 
@@ -23,7 +26,10 @@ Our project seeks to generate emotionally evocative music from images. Specifica
 - Assist visually impaired individuals: By translating the emotional content of Webb Space Telescope images into music, we hope to enable blind people to experience and appreciate the emotional impact of these images. 🖼️🎵
 - Enhance auditory perception for the deaf: Through the visual representation of the generated music, we intend to help deaf individuals perceive the rhythm and wave structure of the music.🎵〰️💗
 
-## Details:
+## Agentic Workflow:
+
+![Image to Music agentic workflow](Images/AgenticWorkflow_ImagetoMusic.png)
+
 
 In our project, we extract image descriptions using API requests to ChatGPT. These descriptions serve as the foundation for generating music using a pre-trained MusicGen model. We further refine the music by incorporating user-defined preferences such as musical style, genre, and instrumentation. To enhance accessibility for individuals with visual impairments, we plan to implement voice commands that allow users to select their desired options more easily.
 
@@ -61,6 +67,8 @@ https://github.com/user-attachments/assets/32254b0d-c3cf-4ad9-9eb6-6e601b3f28d8
 
 - Music_video_generator.ipynb: Contains code to generate music using the MusicGen model and then create a synchronized video by selecting the appropriate image and generated audio track.
 
-- Selected5Images: Contains 5 example images used in our code.
+- SelectedJWTImages: Contains 5 example images used in our code.
 
 - GeneratedMusic: Stores .json files used for music generation.
+
+
